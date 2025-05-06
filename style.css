@@ -1,0 +1,124 @@
+
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-image: linear-gradient(to top, #63a2ff, #4481f1, #2e60e0, #283bcb, #2f00b1);
+    width: 100%;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    text-decoration: none;
+    background-image: none
+}
+
+header ul li{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color:ghostwhite;
+   margin: 100px;
+   font: size 500px;
+}
+
+header ul li{
+  margin: 18px;
+}
+
+img{ 
+    width: 450px;
+    height: 90px;
+} 
+
+h1{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color_:rgb(0, 229, 255);
+    text-align: center;
+  }
+
+h2{
+    font-size: 100px;
+    color: rgb(18, 196, 255);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+li{
+    color:rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px
+}
+p{
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    font-family: serif;
+    text-align:justify;
+}
+
+.contenedor{
+    text-align:right;
+    display:flex;
+    flex-direction:row-reverse; 
+    width: 100%;
+    background-image: linear-gradient(to top, #413b9e, #006dc7, #009ae2, #1dc6f3, #78efff);
+    .oswald-<uniquifier> {
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }      
+ }
+
+ .contenedor img{
+    display: flex;
+    flex-direction: row;
+    width: 480px;
+    height: 380px;
+    border-radius: 50%;
+    border-style:double;
+    border-color: blue;
+ }
+
+.caja{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    align-self: center
+    background-image: linear-gradient(to right top, #051937, #002463, #002e91, #0034bf, #1233eb)
+}
+
+.main{
+    width: 100;
+    background-color: rgb(219, 252, 252);
+    height: 750px;
+    font-family:cursive;
+}
+ .main img{
+    border-color: blue;
+    width: 600px;
+    height: 500px;
+ }
+
+ .carr{
+    background-image: linear-gradient(to right top, #3999c3, #3baacf, #41bbd9, #4ccde2, #5cdeea, #57e1ef, #51e3f5, #4be6fa, #2bdaff, #16ccff, #28beff, #46afff);
+
+ }
+ 
+ .carr img{
+    width: 600px;
+    height: 600px;
+    border-color: blue;
+ }
+
+ .base{
+    background-image: linear-gradient(to right top, #3999c3, #3baacf, #41bbd9, #4ccde2, #5cdeea, #57e1ef, #51e3f5, #4be6fa, #2bdaff, #16ccff, #28beff, #46afff);
+ }
+ .base img{
+    width: 600px;
+    height: 600px;
+ }
