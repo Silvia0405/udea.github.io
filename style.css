@@ -118,6 +118,15 @@ p{
  .base{
     background-image: linear-gradient(to right top, #3999c3, #3baacf, #41bbd9, #4ccde2, #5cdeea, #57e1ef, #51e3f5, #4be6fa, #2bdaff, #16ccff, #28beff, #46afff);
  }
+
+@media(max-width:600px){
+
+}
+
+@media(min-width:600px){
+
+}
+
  .base img{
     width: 600px;
     height: 600px;
